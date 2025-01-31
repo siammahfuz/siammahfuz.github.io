@@ -479,67 +479,77 @@
     </div>
 </div>
 <!---------------------------------End testimonials------------------------------------>
-<section id="contact">
-	<div class="container">
-        <div class="row">
-            <div class="col-md-12">
-			    <h5>Contact</h5>
-				<h2>Get in Touch</h2>
-				<p>We’d love to hear from you! Whether you have a question, suggestion, or just want to connect, feel free to reach out. We’re here to help!</p>
+<section id="contact" class="contact-section">
+    <div class="container">
+        <header class="contact-header text-center">
+            <h5>Contact</h5>
+            <h2>Get in Touch</h2>
+            <p>We’d love to hear from you! Whether you have a question, suggestion, or just want to connect, feel free to reach out. We’re here to help!</p>
+        </header>
+
+        <div class="contact-form-wrapper">
+            <div class="contact-form wow zoomIn" data-wow-offset="120" data-wow-duration="3s">
+                <form action="#" method="post" class="contact-form__form">
+                    <div class="form-row">
+                        <div class="form-group col-md-5">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Name" required>
+                        </div>
+                        <div class="form-group col-md-5">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-10">
+                            <label for="address">Address</label>
+                            <input type="text" id="address" name="address" class="form-control" placeholder="Address" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-10">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" class="form-control" placeholder="Message.." required></textarea>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-12 text-center">
+                            <button type="submit" class="btn btn-primary"><i class="far fa-envelope"></i> Send Message</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
-		<div class="row">
-			<div class="col-md-12">
-				<div class="conform wow zoomIn" data-wow-offset="120" data-wow-duration="3s">
-					<form action="#" method="post">
-						<div class="row">
-							<div class="col-md-5">
-								<input type="text" class="col-md-12 form" name="Name" placeholder="Name" >
-							</div>
-							<div class="col-md-5">
-								<input type="email" class="col-md-12 form" name="Email" placeholder="Email">
-							</div>
-						</div><br>
-						<div class="row">
-							 <div class="col-md-10">
-								<input type="email" class="col-md-12 form" name="address" placeholder="Address">
-							</div>
-						</div><br>
-						<div class="row">
-							<div class="col-md-10">
-								<textarea rows="4" cols="95" class="form" placeholder="Message.."></textarea>
-							</div>
-						</div><br>
-						<div class="row">
-							<div class="col-md-12">
-								<a class="btn" href=""><i class="far fa-envelope"></i>Send Message</a>
-								<hr>
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
+    </div>
 </section>
 
-<div id="map-area">
-	<div class="container">
-		<div class="row">
-			<div class="communication d-flex wow fadeInDown" data-wow-offset="120" data-wow-duration="3s">
-				<div class="col-md-4 con d-flex">
-					<a href=""><i class="fas fa-phone"></i></a><p>Contact Number<br>+8801308806509</p>
-				</div>
-				<div class="col-md-4 mail d-flex">
-					<a href=""><i class="far fa-envelope"></i></a><p>Email Address<br>ksiam3409@gmail.com</p>
-				</div>
-				<div class="col-md-4 loc d-flex">
-					<a href=""><i class="fas fa-map-marker-alt"></i></a><p>Location<br>Dhanmondi,#1209, Dhaka</p>
-				</div>
-			</div>
-		</div>
-	</div>
+<div id="map-area" class="map-area">
+    <div class="container">
+        <div class="row">
+            <div class="communication d-flex wow fadeInDown" data-wow-offset="120" data-wow-duration="3s">
+                <div class="col-md-4 con d-flex">
+                    <a href="tel:+8801308806509" aria-label="Call us">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                    <p>Contact Number<br>+8801308806509</p>
+                </div>
+                <div class="col-md-4 mail d-flex">
+                    <a href="mailto:ksiam3409@gmail.com" aria-label="Send us an email">
+                        <i class="far fa-envelope"></i>
+                    </a>
+                    <p>Email Address<br>ksiam3409@gmail.com</p>
+                </div>
+                <div class="col-md-4 loc d-flex">
+                    <a href="https://www.google.com/maps?q=Dhanmondi,+%231209,+Dhaka" target="_blank" aria-label="Find us on the map">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </a>
+                    <p>Location<br>Dhanmondi, #1209, Dhaka</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
 <!---------------------------------End map-area------------------------------------>
 <div id="footer">
 	<div class="container">
