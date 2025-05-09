@@ -40,7 +40,7 @@ If you'd like to clone, modify, or contribute to this portfolio:
 bash
 Copy
 Edit
-git clone https://github.com/siammahfuz/siammahfuz.github.io.git
+git clone https://github.com/siammahfuz/siammahfuz.github.io
 cd siammahfuz.github.io
 You can open the index.html file directly in a browser or serve it with a live server for development.
 
